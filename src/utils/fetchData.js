@@ -1,7 +1,9 @@
 export const exerciseOptions = {
 	method: 'GET',
+	url: 'https://exercisedb.p.rapidapi.com/exercises',
+	qs: {limit: '1000'},
 	headers: {
-		'x-rapidapi-key': process.env.REACT_APP_RAPID_API_KEY,
+		'x-rapidapi-key': '41d3db1d3emsh0b2140a91fc1972p1b2687jsnba2a330fdded',
 		'x-rapidapi-host': 'exercisedb.p.rapidapi.com'
 	}
 };
